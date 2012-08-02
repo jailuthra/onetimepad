@@ -1,0 +1,11 @@
+One Time Pad - PYTHON
+
+//The crypted message is easy to crack. Don't use it for commercial purposes :P!
+
+You are free to use the code in any way you want! :)
+
+It is a Python script coded just for fun.
+Crypt executable takes an input of the message to be crypted, and a KEY; and returns a cipher text.
+Decrypt executable takes an input of the cipher text to be decrypted, and the KEY; and returns the original message.
+
+Note: The Python files will directly execute in ubuntu (also other Linux distros possibly), to use on other Operating Systems, you need to have Python interpreter installed.
