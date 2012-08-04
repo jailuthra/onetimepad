@@ -3,7 +3,7 @@ repeat='y'
 print ('=======DECRYPTER=======\n    Copyright (C) Jai Luthra 2012 <me@jailuthra.in>\n\n')
 while repeat!='n':
     
-    str1=raw_input('\nEnter the String You Want To Crypt: ')
+    str1=raw_input('\nEnter the message you want to D	ecrypt: ')
     str2=''
     k=raw_input('Enter the password: ')
     i=0
