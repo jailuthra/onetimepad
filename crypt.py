@@ -1,6 +1,9 @@
 #!/usr/bin/env python
+
+# Copyright (C) 2013 Jai Luthra <me@jailuthra.in> 
+
 repeat='y'
-print ('=======ENCRYPTER=======\n    Copyright (C) Jai Luthra 2012 <me@jailuthra.in>\n\n')
+print ('=======ENCRYPTER=======\n\n')
 while repeat!='n':
     str1=raw_input('\nEnter the string you want to crypt: ')
     str2=''
