@@ -42,10 +42,10 @@ def main():
                 msg = f.read()
                 if len(key) < len(msg):
                     print('\nWARNING: Key size less than the message is unsafe')
-                cryptfile = open(fname + '.otp', 'w')
+                cryptfile = open(fname + '.otpp', 'w')
                 cryptfile.write(encrypt(msg, key))
                 cryptfile.close()
-                print('Encrypted data has been written to', fname+'.otp')
+                print('Encrypted data has been written to', fname+'.otpp')
 
 def encrypt(msg, key):
     '''Return cipher text'''
