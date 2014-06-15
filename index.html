@@ -16,14 +16,14 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jailuthra/onetimepad-python">View on GitHub</a>
+          <a id="forkme_banner" href="https://github.com/jailuthra/onetimepad">View on GitHub</a>
 
           <h1 id="project_title">Onetimepad-python</h1>
           <h2 id="project_tagline">A hacky implementation of one-time-pad</h2>
 
             <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/jailuthra/onetimepad-python/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/jailuthra/onetimepad-python/tarball/master">Download this project as a tar.gz file</a>
+              <a class="zip_download_link" href="https://github.com/jailuthra/onetimepad/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/jailuthra/onetimepad/tarball/master">Download this project as a tar.gz file</a>
             </section>
         </header>
     </div>
@@ -32,18 +32,49 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="one-time-pad---python" class="anchor" href="#one-time-pad---python"><span class="octicon octicon-link"></span></a>One Time Pad - Python</h1>
+<a name="one-time-pad-python-v11" class="anchor" href="#one-time-pad-python-v11"><span class="octicon octicon-link"></span></a>One-Time-Pad Python v1.1</h1>
+
+<p><strong>One-Time-Pad Python is a command-line encryption tool</strong>, which uses an encryption mechanism
+very similar to <a href="https://en.wikipedia.org/wiki/One-time_pad">One-time Pad</a> (Duh. Thanks for telling that)</p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
 
 <ul>
-<li>Crypt executable takes an input of the message to be crypted, and a KEY; and returns a cipher text in hexadecimal.</li>
-<li>Decrypt executable takes an input of the cipher text to be decrypted, and the KEY; and returns the original message.</li>
-</ul><hr><p><strong>Note:</strong> </p>
+<li>It can be used as a python script, or can be imported as a module.</li>
+<li>You can encrypt/decrypt data not only from stdin, but from a file too.</li>
+<li>It is Open Source! :D</li>
+</ul><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <ol>
-<li>The crypted message is easy to crack <strong>if</strong> the length of key is less than the length of message.</li>
-<li>Thus, it is advised not to use it for storing real private stuff. This is
-just a hack!</li>
-</ol>
+<li>Clone it:<br><code>$ git clone https://github.com/jailuthra/onetimepad.git</code>
+</li>
+<li>Run it:<br>
+</li>
+</ol><pre><code>$ ./otp.py -h
+usage: otp.py [-h] [-d] [-f FILENAME]
+
+Encrypt or Decrypt data using One-Time Pad
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --decrypt         Decrypt data (default is to encrypt)
+  -f FILENAME, --file FILENAME
+                        File name to encrypt/decrypt
+</code></pre>
+
+<h2>
+<a name="security" class="anchor" href="#security"><span class="octicon octicon-link"></span></a>Security</h2>
+
+<ol>
+<li>The crypted message is very easy to crack if the length of key is less than the length of message.</li>
+<li>Thus, it is advised not to use it for storing real private stuff. <strong>This is just a hack!</strong>
+</li>
+</ol><h2>
+<a name="copying" class="anchor" href="#copying"><span class="octicon octicon-link"></span></a>Copying</h2>
+
+<p>This project is licensed under the terms of MIT LICENSE, please see LICENSE file for more details.</p>
       </section>
     </div>
 
