@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Onetimepad-python : A hacky implementation of one-time-pad" />
+    <meta name="description" content="One-Time-Pad Python : A hacky implementation of One-time Pad in Python" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Onetimepad-python</title>
+    <title>One-Time-Pad Python</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/jailuthra/onetimepad">View on GitHub</a>
 
-          <h1 id="project_title">Onetimepad-python</h1>
-          <h2 id="project_tagline">A hacky implementation of one-time-pad</h2>
+          <h1 id="project_title">One-Time-Pad Python</h1>
+          <h2 id="project_tagline">A hacky implementation of One-time Pad in Python</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/jailuthra/onetimepad/zipball/master">Download this project as a .zip file</a>
@@ -31,10 +31,7 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h1>
-<a name="one-time-pad-python-v11" class="anchor" href="#one-time-pad-python-v11"><span class="octicon octicon-link"></span></a>One-Time-Pad Python v1.1</h1>
-
-<p><strong>One-Time-Pad Python is a command-line encryption tool</strong>, which uses an encryption mechanism
+        <p><strong>One-Time-Pad Python is a command-line encryption tool</strong>, which uses an encryption mechanism
 very similar to <a href="https://en.wikipedia.org/wiki/One-time_pad">One-time Pad</a> (Duh. Thanks for telling that)</p>
 
 <h2>
@@ -50,8 +47,9 @@ very similar to <a href="https://en.wikipedia.org/wiki/One-time_pad">One-time Pa
 <ol>
 <li>Clone it:<br><code>$ git clone https://github.com/jailuthra/onetimepad.git</code>
 </li>
-<li>Run it:<br>
+<li>Enter the clone directory:<br><code>$ cd onetimepad/</code>
 </li>
+<li>Run it:</li>
 </ol><pre><code>$ ./otp.py -h
 usage: otp.py [-h] [-d] [-f FILENAME]
 
@@ -69,8 +67,8 @@ optional arguments:
 
 <ol>
 <li>The crypted message is very easy to crack if the length of key is less than the length of message.</li>
-<li>Thus, it is advised not to use it for storing real private stuff. <strong>This is just a hack!</strong>
-</li>
+<li>In any case, the key is not nescessarily random, which makes this tool as good as a toy.</li>
+<li>Thus, do not encrypt any real private stuff, it won't protect you from the NSA. <em>It is just a hack</em>.</li>
 </ol><h2>
 <a name="copying" class="anchor" href="#copying"><span class="octicon octicon-link"></span></a>Copying</h2>
 
@@ -81,7 +79,7 @@ optional arguments:
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Onetimepad-python maintained by <a href="https://github.com/jailuthra">jailuthra</a></p>
+        <p class="copyright">One-Time-Pad Python maintained by <a href="https://github.com/jailuthra">jailuthra</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
