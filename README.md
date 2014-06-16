@@ -16,7 +16,7 @@ Installation
 
 1. Clone it:  
 ```$ git clone https://github.com/jailuthra/onetimepad.git```
-2. cd to the onetimepad directory:
+2. Enter the clone directory:  
 ```$ cd onetimepad/```
 3. Run it:
 ```
