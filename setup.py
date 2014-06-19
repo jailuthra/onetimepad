@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='onetimepad',
     
-    version='1.1.1',
+    version='1.2',
     description='A hacky implementation of One-time pad',
     long_description=open('README.rst').read(),
 
@@ -19,6 +19,8 @@ setup(
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
+        'Environment :: Console',
+        'Topic :: Security :: Cryptography',
     ],
 
     entry_points={
