@@ -1,3 +1,4 @@
+===================
 One-Time-Pad Python
 ===================
 
@@ -5,13 +6,28 @@ One-Time-Pad Python
 encryption mechanism very similar to `One-time Pad`_ (Duh. Thanks for
 telling that)
 
-Features
---------
+Installation
+------------
 
--  It can be used as a python script, or can be imported as a module.
--  You can encrypt/decrypt data not only from stdin, but from a file
-   too.
--  It is Open Source! :D
+Install it using pip:
+::
+    $ pip install onetimepad
+
+Usage
+-----
+
+To use it from the command-line, run:
+::
+    $ onetimepad
+
+Or, import the onetimepad module in your script:
+::
+    #!/usr/bin/env python3
+
+    import onetimepad
+
+    cipher = onetimepad.encrypt('some text', 'a_random_key')
+    msg = onetimepad.decrypt(cipher, 'a_random_key')
 
 Security
 --------
