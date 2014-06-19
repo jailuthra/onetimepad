@@ -5,7 +5,8 @@ setup(
     
     version='1.1.0',
     description='A hacky implementation of One-time pad',
-    
+    long_description=open('README.rst').read(),
+
     py_modules=['onetimepad'],
 
     url='http://jailuthra.in/onetimepad',
