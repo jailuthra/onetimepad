@@ -9,19 +9,19 @@ telling that)
 Installation
 ------------
 
-Install it using pip:
-::
+Install it using pip::
+
     $ pip install onetimepad
 
 Usage
 -----
 
-To use it from the command-line, run:
-::
+To use it from the command-line, run::
+
     $ onetimepad
 
-Or, import the onetimepad module in your script:
-::
+Or, import the onetimepad module in your script::
+
     #!/usr/bin/env python3
 
     import onetimepad
