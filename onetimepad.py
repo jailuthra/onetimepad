@@ -51,13 +51,13 @@ def encrypt(msg, key):
     '''Return cipher text'''
     cipher = xor_str(msg, key)
     # ascii armor the cipher text
-    cipher = (binascii.hexlify(cipher.encode('ascii'))).decode('ascii')
+    cipher = (binascii.hexlify(cipher.encode())).decode()
     return cipher
 
 def decrypt(cipher, key):
     '''Return plain text message'''
     # get back the string from ascii armored cipher
-    cipher = (binascii.unhexlify(cipher.encode('ascii'))).decode('ascii')
+    cipher = (binascii.unhexlify(cipher.encode())).decode()
     msg = xor_str(cipher, key)
     return msg
 
