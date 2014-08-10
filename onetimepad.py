@@ -5,8 +5,7 @@
 
 '''Encrypt or Decrypt data using One-Time Pad'''
 
-import binascii
-import argparse
+import binascii, argparse, itertools
 
 def main():
     parser = argparse.ArgumentParser(
@@ -66,14 +65,7 @@ def xor_str(a, b):
     The length of the output string is the same as that of first string,
     which means that if second string is shorter than first, it'll be repeated
     over.'''
-    i = 0
-    j = 0
-    xorred = ''
-    for i in range(len(a)):
-        xorred += chr(ord(a[i])^ord(b[j]))
-        j += 1
-        if j == len(b):
-            j = 0
+    xorred = ''.join([chr(ord(x)^ord(y)) for x, y in zip(a, itertools.cycle(b))])
     return xorred
 
 if __name__ == "__main__":
