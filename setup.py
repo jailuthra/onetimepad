@@ -19,7 +19,7 @@ setup(
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
         'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent'
+        'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
         'Topic :: Security :: Cryptography',
     ],
