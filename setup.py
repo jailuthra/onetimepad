@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='onetimepad',
     
-    version='1.3',
+    version='1.4',
     description='A hacky implementation of One-time pad',
     long_description=open('README.rst').read(),
 
