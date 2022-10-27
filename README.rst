@@ -34,7 +34,7 @@ Security
 
 1. The crypted message is very easy to crack if the length of key is
    less than the length of message.
-2. In any case, the key is not nescessarily random, which makes this
+2. In any case, the key is not necessarily random, which makes this
    tool as good as a toy.
 3. Thus, do not encrypt any real private stuff, it won’t protect you
    from the NSA. *It is just a hack*.
